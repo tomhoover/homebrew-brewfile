@@ -95,7 +95,6 @@ brew 'hopenpgp-tools'
 brew 'htop'
 brew 'hub'
 brew 'hugo'
-brew 'keybase'
 brew 'keychain'
 brew 'libdvdcss'
 brew 'libebml'
@@ -149,6 +148,7 @@ cask 'growlnotify'
 cask 'handbrake'
 cask 'hazel'
 cask 'java'
+cask 'keybase'
 cask 'macvim'
 cask 'nvalt'
 cask 'rowanj-gitx'
@@ -158,37 +158,38 @@ cask 'skype'
 cask 'torbrowser'
 cask 'transmission'
 cask 'vlc'
-mas 'iThoughtsX', id: 720669838
-mas 'Xcode', id: 497799835
-mas 'Get Plain Text', id: 508368068
-mas 'Pixelmator', id: 407963104
-mas 'Growl', id: 467939042
-mas 'Home Design 3D Outdoor & Garden', id: 997732583
-mas 'Things', id: 407951449
-mas 'Blackmagic Disk Speed Test', id: 425264550
-mas 'Fantastical', id: 435003921
-mas 'Weather Dock free', id: 886290397
-mas 'PCalc', id: 403504866
-mas 'PDF Expert', id: 1055273043
-mas 'SiteSucker', id: 442168834
+mas '1Password', id: 443987910
 mas 'Aperture', id: 408981426
-mas 'Polarr Photo Editor', id: 1058273036
-mas 'Home Inventory', id: 413564952
 mas 'Bible Study', id: 472790630
-mas 'Pocket', id: 568494494
+mas 'Blackmagic Disk Speed Test', id: 425264550
+mas 'Byword', id: 420212497
+mas 'DaisyDisk', id: 411643860
+mas 'EasyFind', id: 411673888
+mas 'Fantastical', id: 435003921
+mas 'Filters for Photos', id: 1083965373
+mas 'Get Plain Text', id: 508368068
+mas 'Growl', id: 467939042
+mas 'Home Design 3D', id: 955414427
+mas 'Home Design 3D Outdoor & Garden', id: 997732583
+mas 'Home Inventory', id: 413564952
+mas 'iMovie', id: 408981434
+mas 'Install Mac OS X Lion', id: 444303913
+mas 'iThoughtsX', id: 720669838
+mas 'Keynote', id: 409183694
+mas 'Microsoft OneNote', id: 784801555
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Moom', id: 419330170
-mas 'Byword', id: 420212497
-mas 'EasyFind', id: 411673888
-mas 'Pages', id: 409201541
-mas 'Filters for Photos', id: 1083965373
-mas 'Home Design 3D', id: 955414427
-mas 'Tap Forms', id: 494995266
-mas 'Microsoft OneNote', id: 784801555
-mas 'DaisyDisk', id: 411643860
-mas 'iMovie', id: 408981434
-mas 'XnConvert', id: 436203431
 mas 'Numbers', id: 409203825
-mas '1Password', id: 443987910
-mas 'Keynote', id: 409183694
+mas 'Pages', id: 409201541
+mas 'PCalc', id: 403504866
+mas 'PDF Expert', id: 1055273043
+mas 'Pixelmator', id: 407963104
+mas 'Pocket', id: 568494494
+mas 'Polarr Photo Editor', id: 1058273036
 mas 'Screens', id: 446107677
+mas 'SiteSucker', id: 442168834
+mas 'Tap Forms', id: 494995266
+mas 'Things', id: 407951449
+mas 'Weather Dock free', id: 886290397
+mas 'Xcode', id: 497799835
+mas 'XnConvert', id: 436203431
