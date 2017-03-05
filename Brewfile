@@ -23,6 +23,8 @@ brew 'atk'
 brew 'autoconf'
 brew 'bash-completion'
 brew 'boost'
+brew 'ghc'
+brew 'cabal-install'
 brew 'cli53'
 brew 'colordiff'
 brew 'cscope'
@@ -87,6 +89,7 @@ brew 'pygobject'
 brew 'pygtk'
 brew 'xdot'
 brew 'git-annex'
+brew 'gnu-getopt'
 brew 'gnu-sed'
 brew 'gnupg'
 brew 'go'
@@ -121,6 +124,7 @@ brew 'parallel'
 brew 'procmail'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
+brew 'qrencode'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'rclone'
@@ -173,7 +177,6 @@ mas 'Home Design 3D', id: 955414427
 mas 'Home Design 3D Outdoor & Garden', id: 997732583
 mas 'Home Inventory', id: 413564952
 mas 'iMovie', id: 408981434
-mas 'Install Mac OS X Lion', id: 444303913
 mas 'iThoughtsX', id: 720669838
 mas 'Keynote', id: 409183694
 mas 'Microsoft OneNote', id: 784801555
