@@ -47,6 +47,7 @@ brew 'youtube-dl'
 brew 'zopfli'
 cask 'alfred'
 cask 'appcleaner'
+cask 'arq'
 cask 'bartender'
 cask 'caffeine'
 cask 'ctivo'
@@ -64,6 +65,7 @@ mas '1Blocker', id: 1107421413
 mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860
 mas 'Growl', id: 467939042
+mas 'Install Mac OS X Lion', id: 444303913
 mas 'Moom', id: 419330170
 mas 'Numbers', id: 409203825
 mas 'PDF Expert', id: 1055273043
