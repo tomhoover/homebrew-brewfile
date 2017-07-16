@@ -49,6 +49,7 @@ brew "vcsh"
 brew "vim", args: ["with-lua"]
 brew "wget"
 brew "wine"
+brew "winetricks"
 brew "youtube-dl"
 brew "zopfli"
 cask "alfred"
