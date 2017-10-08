@@ -17,7 +17,6 @@ brew "python3"
 brew "git-annex"
 brew "gnu-getopt"
 brew "gnu-sed"
-brew "gnupg"
 brew "go"
 brew "handbrake"
 brew "htop"
@@ -34,7 +33,6 @@ brew "node"
 brew "openssl@1.1"
 brew "paperkey"
 brew "parallel"
-brew "pyenv"
 brew "pyenv-virtualenv"
 brew "rbenv"
 brew "rclone"
@@ -73,21 +71,12 @@ cask "vlc"
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 443987910
 mas "Bible Study", id: 472790630
-mas "Byword", id: 420212497
+mas "DaisyDisk", id: 411643860
 mas "DaVinci Resolve", id: 571213070
 mas "Growl", id: 467939042
-mas "iMovie", id: 408981434
-mas "iThoughtsX", id: 720669838
-mas "Keynote", id: 409183694
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Remote Desktop", id: 715768417
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
-mas "XnConvert", id: 436203431
