@@ -26,6 +26,7 @@ brew "keychain"
 brew "mas"
 brew "mkvtoolnix", args: ["with-qt"]
 brew "mono"
+brew "mosh"
 brew "mr"
 brew "mutt", args: ["with-gpgme"]
 brew "muttils"
