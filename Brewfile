@@ -11,9 +11,15 @@ cask "xquartz"
 brew "git"
 brew "bash-completion"
 brew "colordiff"
+brew "coreutils"
 brew "exiftool"
 brew "fdupes"
+brew "jpeg"
+brew "libtiff"
+brew "webp"
+brew "gexiv2"
 brew "python3"
+brew "pygobject3"
 brew "git-annex"
 brew "gnu-getopt"
 brew "gnu-sed"
@@ -23,6 +29,7 @@ brew "htop"
 brew "hub"
 brew "hugo"
 brew "keychain"
+brew "little-cms"
 brew "mas"
 brew "mkvtoolnix", args: ["with-qt"]
 brew "mono"
@@ -74,9 +81,13 @@ mas "1Password", id: 443987910
 mas "Bible Study", id: 472790630
 mas "DaVinci Resolve", id: 571213070
 mas "Growl", id: 467939042
+mas "iThoughtsX", id: 720669838
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
+mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Spark", id: 1176895641
