@@ -78,6 +78,7 @@ mas "Bible Study", id: 472790630
 mas "DaVinci Resolve", id: 571213070
 mas "Growl", id: 467939042
 mas "iThoughtsX", id: 720669838
+mas "MediaInfo", id: 510620098
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
 mas "PCalc", id: 403504866
