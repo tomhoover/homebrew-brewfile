@@ -27,6 +27,7 @@ brew "hub"
 brew "hugo"
 brew "keychain"
 brew "mas"
+brew "midnight-commander"
 brew "mkvtoolnix", args: ["with-qt"]
 brew "mono"
 brew "mosh"
@@ -74,6 +75,7 @@ cask "superduper"
 cask "vlc"
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 443987910
+mas "AudioBookBinder", id: 413969927
 mas "Bible Study", id: 472790630
 mas "DaVinci Resolve", id: 571213070
 mas "Growl", id: 467939042
