@@ -90,4 +90,5 @@ mas "Pocket", id: 568494494
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Spark", id: 1176895641
+mas "Speedtest", id: 1153157709
 mas "Xcode", id: 497799835
