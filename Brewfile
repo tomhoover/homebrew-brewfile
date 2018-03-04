@@ -76,3 +76,35 @@ cask "osxfuse"
 cask "rowanj-gitx"
 cask "superduper"
 cask "vlc"
+mas "1Blocker", id: 1107421413
+mas "1Password", id: 443987910
+mas "AudioBookBinder", id: 413969927
+mas "Bible Study", id: 472790630
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Byword", id: 420212497
+mas "DaVinci Resolve", id: 571213070
+mas "Growl", id: 467939042
+mas "Home Design 3D", id: 955414427
+mas "Home Inventory", id: 413564952
+mas "iMovie", id: 408981434
+mas "Install Mac OS X Lion", id: 444303913
+mas "iThoughtsX", id: 720669838
+mas "Keynote", id: 409183694
+mas "MediaInfo", id: 510620098
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Remote Desktop", id: 715768417
+mas "Moom", id: 419330170
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "PCalc", id: 403504866
+mas "PDF Expert", id: 1055273043
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
+mas "Polarr Photo Editor", id: 1058273036
+mas "Screens", id: 446107677
+mas "SiteSucker", id: 442168834
+mas "Spark", id: 1176895641
+mas "Speedtest", id: 1153157709
+mas "Things", id: 407951449
+mas "Xcode", id: 497799835
+mas "XnConvert", id: 436203431
