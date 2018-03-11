@@ -100,7 +100,7 @@ mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
-mas "Polarr Photo Editor", id: 1058273036
+mas "Polarr Photo Editor Pro", id: 1058273036
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Spark", id: 1176895641
