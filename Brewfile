@@ -39,7 +39,6 @@ brew "openssl@1.1"
 brew "paperkey"
 brew "parallel"
 brew "pyenv-virtualenv"
-brew "python3"
 brew "rbenv"
 brew "rclone"
 brew "restic"
@@ -87,6 +86,7 @@ mas "Growl", id: 467939042
 mas "Home Design 3D", id: 955414427
 mas "Home Inventory", id: 413564952
 mas "iMovie", id: 408981434
+mas "Install Mac OS X Lion", id: 444303913
 mas "iThoughtsX", id: 720669838
 mas "Keynote", id: 409183694
 mas "MediaInfo", id: 510620098
