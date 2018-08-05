@@ -1,12 +1,12 @@
-tap "homebrew/tex"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
 tap "homebrew/completions"
 tap "homebrew/core"
-tap "homebrew/versions"
-tap "homebrew/bundle"
 tap "homebrew/services"
-tap "caskroom/drivers"
-tap "caskroom/versions"
-tap "caskroom/cask"
+tap "homebrew/tex"
+tap "homebrew/versions"
 cask "xquartz"
 brew "bash-completion"
 brew "cmark"
@@ -80,11 +80,16 @@ mas "1Password", id: 443987910
 mas "AudioBookBinder", id: 413969927
 mas "Bible Study", id: 472790630
 mas "DaVinci Resolve", id: 571213070
+mas "GarageBand", id: 682658836
 mas "Growl", id: 467939042
+mas "iMovie", id: 408981434
+mas "Install Mac OS X Lion", id: 444303913
 mas "iThoughtsX", id: 720669838
+mas "Keynote", id: 409183694
 mas "MediaInfo", id: 510620098
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator", id: 407963104
