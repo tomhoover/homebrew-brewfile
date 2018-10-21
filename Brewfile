@@ -7,7 +7,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/tex"
 tap "homebrew/versions"
-cask "xquartz"
 brew "bash-completion"
 brew "cmark"
 brew "colordiff"
@@ -77,6 +76,7 @@ cask "osxfuse"
 cask "rowanj-gitx"
 cask "superduper"
 cask "vlc"
+cask "xquartz"
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 443987910
 mas "AudioBookBinder", id: 413969927
@@ -85,7 +85,6 @@ mas "DaVinci Resolve", id: 571213070
 mas "GarageBand", id: 682658836
 mas "Growl", id: 467939042
 mas "iMovie", id: 408981434
-mas "Install Mac OS X Lion", id: 444303913
 mas "iThoughtsX", id: 720669838
 mas "Keynote", id: 409183694
 mas "MediaInfo", id: 510620098
