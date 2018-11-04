@@ -19,6 +19,7 @@ brew "pygobject3"
 brew "git-annex"
 brew "gnu-getopt"
 brew "gnu-sed"
+brew "gnupg"
 brew "go"
 brew "handbrake"
 brew "htop"
@@ -67,6 +68,7 @@ cask "devonthink-pro-office"
 cask "dropbox"
 cask "google-chrome"
 cask "hazel"
+cask "inkscape"
 cask "iterm2"
 cask "java"
 cask "keybase"
@@ -85,6 +87,7 @@ mas "DaVinci Resolve", id: 571213070
 mas "GarageBand", id: 682658836
 mas "Growl", id: 467939042
 mas "iMovie", id: 408981434
+mas "Install Mac OS X Lion", id: 444303913
 mas "iThoughtsX", id: 720669838
 mas "Keynote", id: 409183694
 mas "MediaInfo", id: 510620098
