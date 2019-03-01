@@ -8,6 +8,7 @@ tap "homebrew/services"
 tap "homebrew/tex"
 tap "homebrew/versions"
 brew "bash-completion"
+brew "ccze"
 brew "cli53"
 brew "cmark"
 brew "colordiff"
@@ -22,20 +23,22 @@ brew "gnu-getopt"
 brew "gnu-sed"
 brew "gnupg"
 brew "go"
+brew "grep"
 brew "handbrake"
 brew "htop"
 brew "hub"
 brew "hugo"
 brew "keychain"
+brew "liblockfile"
 brew "lzop"
 brew "mas"
 brew "midnight-commander"
-brew "mkvtoolnix", args: ["with-qt"]
+brew "mkvtoolnix"
 brew "mono"
 brew "mosh"
 brew "mosquitto", restart_service: true
 brew "mr"
-brew "mutt", args: ["with-gpgme"]
+brew "mutt"
 brew "muttils"
 brew "node"
 brew "openssl@1.1"
@@ -45,6 +48,7 @@ brew "pv"
 brew "pyenv-virtualenv"
 brew "rbenv"
 brew "rclone"
+brew "rcs"
 brew "restic"
 brew "rmlint"
 brew "s3cmd"
@@ -55,12 +59,11 @@ brew "ssh-copy-id"
 brew "telnet"
 brew "tree"
 brew "vcsh"
-brew "vim", args: ["with-lua"]
+brew "vim"
 brew "wget"
 brew "wine"
 brew "winetricks"
 brew "youtube-dl"
-brew "znapzend"
 brew "zopfli"
 cask "alfred"
 cask "appcleaner"
@@ -83,30 +86,29 @@ cask "openzfs"
 cask "osxfuse"
 cask "rowanj-gitx"
 cask "superduper"
-cask "virtualbox"
 cask "vlc"
 cask "xquartz"
-mas "1Blocker", id: 1107421413
-mas "1Password", id: 443987910
-mas "AudioBookBinder", id: 413969927
-mas "Bible Study", id: 472790630
-mas "DaVinci Resolve", id: 571213070
-mas "GarageBand", id: 682658836
-mas "Growl", id: 467939042
-mas "iMovie", id: 408981434
-mas "iThoughtsX", id: 720669838
-mas "Keynote", id: 409183694
-mas "MediaInfo", id: 510620098
-mas "Moom", id: 419330170
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "PCalc", id: 403504866
-mas "PDF Expert", id: 1055273043
-mas "Pixelmator", id: 407963104
-mas "Pocket", id: 568494494
-mas "Screens", id: 446107677
-mas "SiteSucker", id: 442168834
-mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
-mas "Speedtest", id: 1153157709
-mas "Xcode", id: 497799835
+mas "", id: 568494494
+mas "", id: 409183694
+mas "", id: 1107421413
+mas "", id: 403504866
+mas "", id: 419330170
+mas "", id: 571213070
+mas "", id: 510620098
+mas "", id: 682658836
+mas "", id: 446107677
+mas "", id: 407963104
+mas "", id: 443987910
+mas "", id: 467939042
+mas "", id: 1153157709
+mas "", id: 409203825
+mas "", id: 497799835
+mas "", id: 1055273043
+mas "", id: 409201541
+mas "", id: 442168834
+mas "", id: 408981434
+mas "", id: 1176895641
+mas "", id: 803453959
+mas "", id: 413969927
+mas "", id: 472790630
+mas "", id: 720669838
