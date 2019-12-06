@@ -2,21 +2,25 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
-tap "homebrew/completions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "homebrew/tex"
-tap "homebrew/versions"
+brew "openssl@1.1"
+brew "python"
+brew "ansible"
 brew "bash-completion"
+brew "black"
 brew "ccze"
 brew "cli53"
 brew "cmark"
 brew "colordiff"
 brew "coreutils"
+brew "direnv"
 brew "exiftool"
 brew "fdupes"
+brew "fzf"
 brew "webp"
 brew "git"
+brew "python@2"
 brew "pygobject3"
 brew "git-annex"
 brew "gnu-getopt"
@@ -28,6 +32,7 @@ brew "handbrake"
 brew "htop"
 brew "hub"
 brew "hugo"
+brew "jq"
 brew "keychain"
 brew "liblockfile"
 brew "lzop"
@@ -41,9 +46,9 @@ brew "mr"
 brew "mutt"
 brew "muttils"
 brew "node"
-brew "openssl@1.1"
 brew "paperkey"
 brew "parallel"
+brew "pipx"
 brew "pv"
 brew "pyenv-virtualenv"
 brew "rbenv"
@@ -57,6 +62,7 @@ brew "shellcheck"
 brew "sphinx-doc"
 brew "ssh-copy-id"
 brew "telnet"
+brew "tmux"
 brew "tree"
 brew "vcsh"
 brew "vim"
@@ -64,15 +70,21 @@ brew "wget"
 brew "wine"
 brew "winetricks"
 brew "youtube-dl"
+brew "zlib"
 brew "zopfli"
+brew "zsh-completions"
+cask "1password"
+cask "1password-cli"
 cask "alfred"
 cask "appcleaner"
 cask "arq"
+cask "background-music-pre"
 cask "bartender"
 cask "caffeine"
 cask "ctivo"
 cask "darktable"
-cask "devonthink-pro-office"
+cask "db-browser-for-sqlite"
+cask "devonthink"
 cask "dropbox"
 cask "google-chrome"
 cask "hazel"
@@ -84,31 +96,25 @@ cask "keyboard-maestro"
 cask "nvalt"
 cask "openzfs"
 cask "osxfuse"
+cask "p4v"
 cask "rowanj-gitx"
 cask "superduper"
 cask "vlc"
 cask "xquartz"
-mas "", id: 568494494
-mas "", id: 409183694
-mas "", id: 1107421413
-mas "", id: 403504866
-mas "", id: 419330170
-mas "", id: 571213070
-mas "", id: 510620098
-mas "", id: 682658836
-mas "", id: 446107677
-mas "", id: 407963104
-mas "", id: 443987910
-mas "", id: 467939042
-mas "", id: 1153157709
-mas "", id: 409203825
-mas "", id: 497799835
-mas "", id: 1055273043
-mas "", id: 409201541
-mas "", id: 442168834
-mas "", id: 408981434
-mas "", id: 1176895641
-mas "", id: 803453959
-mas "", id: 413969927
-mas "", id: 472790630
-mas "", id: 720669838
+mas "1Blocker", id: 1107421413
+mas "AudioBookBinder", id: 413969927
+mas "DaVinci Resolve", id: 571213070
+mas "Drafts", id: 1435957248
+mas "GarageBand", id: 682658836
+mas "Growl", id: 467939042
+mas "iThoughtsX", id: 720669838
+mas "MediaInfo", id: 510620098
+mas "Moom", id: 419330170
+mas "OneDrive", id: 823766827
+mas "PCalc", id: 403504866
+mas "PDF Expert", id: 1055273043
+mas "Save to Pocket", id: 1477385213
+mas "Screens", id: 446107677
+mas "SiteSucker", id: 442168834
+mas "Slack", id: 803453959
+mas "Speedtest", id: 1153157709
