@@ -1,3 +1,4 @@
+tap "github/gh"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -5,9 +6,20 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+brew "glib"
+brew "xorgproto"
 brew "openssl@1.1"
+brew "python@3.9"
+brew "tcl-tk"
+brew "python@3.10"
+brew "gobject-introspection"
+brew "harfbuzz"
+brew "pango"
 brew "ansible"
+brew "arp-scan"
 brew "bash-completion"
+brew "beancount"
+brew "openjdk"
 brew "bfg"
 brew "ccze"
 brew "cli53"
@@ -15,20 +27,31 @@ brew "cmake"
 brew "cmark"
 brew "colordiff"
 brew "coreutils"
+brew "diff-so-fancy"
 brew "direnv"
 brew "exiftool"
+brew "exiv2"
 brew "fdupes"
+brew "unbound"
+brew "gnutls"
 brew "ffmpeg"
 brew "fio"
 brew "fzf"
+brew "gh"
 brew "git"
-brew "git-annex"
+brew "git-gui"
 brew "gnu-getopt"
 brew "gnu-sed"
 brew "gnupg"
 brew "go"
+brew "python@3.8"
+brew "graphviz"
 brew "grep"
+brew "gsettings-desktop-schemas"
+brew "gtk+3"
 brew "handbrake"
+brew "haskell-stack"
+brew "hledger"
 brew "htop"
 brew "hub"
 brew "hugo"
@@ -36,20 +59,27 @@ brew "iftop"
 brew "iperf"
 brew "jq"
 brew "keychain"
+brew "openssl@3"
 brew "liblockfile"
+brew "libwebsockets"
+brew "liquidprompt"
 brew "lzop"
 brew "mas"
 brew "midnight-commander"
+brew "qt"
 brew "mkvtoolnix"
 brew "mono"
 brew "mosh"
-brew "mosquitto", restart_service: true
+brew "mosquitto"
 brew "mr"
 brew "mutt"
+brew "nghttp2"
 brew "node"
+brew "numpy"
 brew "paperkey"
 brew "parallel"
 brew "pv"
+brew "pyenv"
 brew "pyenv-virtualenv"
 brew "pygobject3"
 brew "rbenv"
@@ -57,13 +87,14 @@ brew "rclone"
 brew "rcs"
 brew "restic"
 brew "rmlint"
+brew "rsync"
+brew "ruby"
 brew "s3cmd"
 brew "scons"
 brew "shellcheck"
 brew "sphinx-doc"
 brew "ssh-copy-id", link: true
-brew "syncthing", restart_service: true
-brew "tcl-tk"
+brew "subversion"
 brew "telnet"
 brew "tmux"
 brew "tmuxinator"
@@ -74,6 +105,7 @@ brew "wget"
 brew "wine"
 brew "winetricks"
 brew "youtube-dl"
+brew "z"
 brew "zlib"
 brew "zopfli"
 brew "zsh-completions"
@@ -85,50 +117,71 @@ cask "appcleaner"
 cask "arq"
 cask "background-music-pre"
 cask "bartender"
+cask "brave-browser"
 cask "caffeine"
 cask "ctivo"
 cask "darktable"
 cask "db-browser-for-sqlite"
 cask "dbeaver-community"
 cask "devonthink"
+cask "discord"
 cask "dropbox"
 cask "firefox"
 cask "flux"
 cask "font-source-code-pro"
 cask "google-chrome"
 cask "hazel"
-cask "inkscape"
 cask "iterm2"
-cask "java"
 cask "joshaven-winbox"
 cask "keybase"
 cask "keyboard-maestro"
-cask "nextcloud"
+cask "little-snitch"
+cask "nrlquaker-winbox"
 cask "nvalt"
+cask "onedrive"
+cask "onyx"
 cask "openzfs"
 cask "osxfuse"
 cask "p4v"
 cask "pycharm-ce"
+cask "remember-the-milk"
 cask "rowanj-gitx"
 cask "superduper"
+cask "synology-drive"
+cask "virtualbox"
 cask "vlc"
 cask "xquartz"
-mas "1Blocker", id: 1107421413
+mas "1Blocker", id: 1365531024
+mas "AmorphousDiskMark", id: 1168254295
 mas "AudioBookBinder", id: 413969927
-mas "DaVinci Resolve", id: 571213070
+mas "AutoMounter", id: 1160435653
+mas "Bible Study", id: 472790630
 mas "Discovery", id: 1381004916
 mas "Drafts", id: 1435957248
-mas "GarageBand", id: 682658836
 mas "Growl", id: 467939042
+mas "HACK", id: 1464477788
 mas "iThoughtsX", id: 720669838
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
 mas "MediaInfo", id: 510620098
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Moom", id: 419330170
-mas "OneDrive", id: 823766827
+mas "Notability", id: 360593530
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
+mas "Pixelmator", id: 407963104
+mas "Pixelmator Pro", id: 1289583905
+mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
-mas "Scratch Desktop", id: 1446785996
+mas "Scratch 3", id: 1446785996
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Slack", id: 803453959
 mas "Speedtest", id: 1153157709
+mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
+mas "Zip-Share", id: 1485972365
