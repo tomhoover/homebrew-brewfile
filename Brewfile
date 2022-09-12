@@ -7,6 +7,9 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "bash-completion"
+brew "colordiff"
+brew "diff-so-fancy"
+brew "hub"
 brew "keychain"
 brew "liquidprompt"
 brew "mas"
@@ -31,6 +34,7 @@ cask "nvalt"
 cask "onedrive"
 cask "resilio-sync"
 cask "superduper"
+mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "Moom", id: 419330170
 mas "Notability", id: 360593530
