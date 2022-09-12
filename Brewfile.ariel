@@ -36,6 +36,7 @@ cask "resilio-sync"
 cask "superduper"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
+mas "AutoMounter", id: 1160435653
 mas "Moom", id: 419330170
 mas "Notability", id: 360593530
 mas "PCalc", id: 403504866
