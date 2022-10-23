@@ -74,6 +74,7 @@ brew "s3cmd"
 brew "scons"
 brew "sphinx-doc"
 brew "ssh-copy-id"
+brew "subversion"
 brew "telnet"
 brew "tmux"
 brew "tmuxinator"
@@ -93,6 +94,7 @@ cask "alfred"
 cask "background-music-pre"
 cask "bartender"
 cask "digikam"
+cask "font-source-code-pro"
 cask "hazel"
 cask "karabiner-elements"
 cask "little-snitch"
@@ -104,31 +106,3 @@ cask "pycharm-ce"
 cask "resilio-sync"
 cask "synology-drive"
 cask "xquartz"
-mas "1Blocker", id: 1365531024
-mas "AmorphousDiskMark", id: 1168254295
-mas "AudioBookBinder", id: 413969927
-mas "AutoMounter", id: 1160435653
-mas "Bible Study", id: 472790630
-mas "Discovery", id: 1381004916
-mas "Disk Speed Test", id: 425264550
-mas "Drafts", id: 1435957248
-mas "Growl", id: 467939042
-mas "iThoughtsX", id: 720669838
-mas "MediaInfo", id: 510620098
-mas "Moom", id: 419330170
-mas "Notability", id: 360593530
-mas "Numbers", id: 409203825
-mas "PCalc", id: 403504866
-mas "PDF Expert", id: 1055273043
-mas "Pixelmator", id: 407963104
-mas "Pixelmator Pro", id: 1289583905
-mas "Playgrounds", id: 1496833156
-mas "Pocket", id: 568494494
-mas "Save to Pocket", id: 1477385213
-mas "Scratch 3", id: 1446785996
-mas "Screens", id: 446107677
-mas "SiteSucker", id: 442168834
-mas "Slack", id: 803453959
-mas "Speedtest", id: 1153157709
-mas "The Unarchiver", id: 425424353
-mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
