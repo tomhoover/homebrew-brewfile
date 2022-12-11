@@ -116,7 +116,7 @@ cask "resilio-sync"
 cask "synology-drive"
 cask "xquartz"
 cask "zerotier-one"
-mas "1Blocker", id: 1365531024
+mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AudioBookBinder", id: 413969927
 mas "AutoMounter", id: 1160435653
