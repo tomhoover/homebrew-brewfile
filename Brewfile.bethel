@@ -36,7 +36,7 @@ brew "fio"
 brew "fzf"
 brew "gh"
 brew "git"
-brew "tcl-tk"
+brew "tcl-tk", link: false
 brew "git-gui"
 brew "gnu-getopt"
 brew "gnu-sed"
@@ -156,3 +156,4 @@ mas "Slack", id: 803453959
 mas "Speedtest", id: 1153157709
 mas "The Unarchiver", id: 425424353
 mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
+mas "Xcode", id: 497799835
