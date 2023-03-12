@@ -36,7 +36,7 @@ brew "fio"
 brew "fzf"
 brew "gh"
 brew "git"
-brew "tcl-tk", link: false
+brew "tcl-tk"
 brew "git-gui"
 brew "gnu-getopt"
 brew "gnu-sed"
