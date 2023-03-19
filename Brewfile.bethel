@@ -8,6 +8,7 @@ tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "tomhoover/nocodb"
+tap "vultr/vultr-cli"
 brew "ansible"
 brew "jpeg-turbo"
 brew "bash-completion"
@@ -100,6 +101,7 @@ brew "zlib"
 brew "zopfli"
 brew "zsh-completions"
 brew "tomhoover/nocodb/nocodb"
+brew "vultr/vultr-cli/vultr-cli"
 cask "1password"
 cask "1password-cli"
 cask "adoptopenjdk"
@@ -146,6 +148,7 @@ mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator", id: 407963104
 mas "Pixelmator Pro", id: 1289583905
+mas "Plash", id: 1494023538
 mas "Playgrounds", id: 1496833156
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
@@ -154,6 +157,6 @@ mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Slack", id: 803453959
 mas "Speedtest", id: 1153157709
+mas "Tailscale", id: 1475387142
 mas "The Unarchiver", id: 425424353
 mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
-mas "Xcode", id: 497799835
