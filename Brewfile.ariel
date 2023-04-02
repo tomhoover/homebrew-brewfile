@@ -72,6 +72,7 @@ cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AutoMounter", id: 1160435653
+mas "Drafts", id: 1435957248
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Word", id: 462054704
 mas "Moom", id: 419330170
@@ -83,4 +84,5 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Screens", id: 446107677
+mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
