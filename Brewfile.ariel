@@ -7,6 +7,7 @@ tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "tomhoover/shellcheck"
+brew "openssl@3"
 brew "bash-completion"
 brew "readline"
 brew "sqlite"
@@ -32,7 +33,6 @@ brew "mas"
 brew "midnight-commander"
 brew "mosh"
 brew "mr"
-brew "openssl@3", link: false
 brew "pipx"
 brew "rdiff-backup"
 brew "ripgrep"
@@ -98,3 +98,4 @@ mas "Save to Pocket", id: 1477385213
 mas "Screens", id: 446107677
 mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
