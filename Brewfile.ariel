@@ -6,9 +6,11 @@ tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "kha7iq/tap"
 tap "tomhoover/shellcheck"
 brew "openssl@3"
 brew "bash-completion"
+brew "bat"
 brew "readline"
 brew "sqlite"
 brew "xz"
@@ -37,6 +39,7 @@ brew "mas"
 brew "midnight-commander"
 brew "mosh"
 brew "mr"
+brew "pinentry-mac"
 brew "pipx"
 brew "rdiff-backup"
 brew "ripgrep"
@@ -54,15 +57,19 @@ brew "wget"
 brew "z"
 brew "zlib"
 brew "zsh-completions"
+brew "kha7iq/tap/pingme"
 brew "tomhoover/shellcheck/shellcheck@0.8.0"
 cask "1password"
 cask "1password-cli"
 cask "alfred"
+cask "arq5"
 cask "bartender"
 cask "brave-browser"
 cask "caffeine"
 cask "caldigit-docking-utility"
+cask "daisydisk"
 cask "devonthink"
+cask "discord"
 cask "docker"
 cask "duplicacy-cli"
 cask "flux"
@@ -80,12 +87,15 @@ cask "mullvadvpn"
 cask "mylio"
 cask "nvalt"
 cask "obsidian"
+cask "onedrive"
 cask "remember-the-milk"
 cask "resilio-sync"
+cask "scratch"
 cask "superduper"
 cask "syncthing"
 cask "tunnelblick"
 cask "veracrypt"
+cask "visual-studio-code"
 cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
@@ -94,16 +104,18 @@ mas "Disk Speed Test", id: 425264550
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Word", id: 462054704
 mas "Moom", id: 419330170
 mas "Notability", id: 360593530
-mas "OneDrive", id: 823766827
+mas "Numbers", id: 409203825
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Screens", id: 446107677
+mas "Slack", id: 803453959
 mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
