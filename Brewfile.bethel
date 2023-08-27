@@ -1,11 +1,10 @@
 tap "github/gh"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
-tap "homebrew/core"
 tap "homebrew/services"
+tap "kha7iq/tap"
 tap "tomhoover/nocodb"
 tap "tomhoover/shellcheck", "https://github.com/tomhoover/homebrew-shellcheck.git"
 tap "vultr/vultr-cli"
@@ -107,6 +106,7 @@ brew "z"
 brew "zlib"
 brew "zopfli"
 brew "zsh-completions"
+brew "kha7iq/tap/pingme"
 brew "tomhoover/nocodb/nocodb"
 brew "tomhoover/shellcheck/shellcheck@0.8.0"
 brew "vultr/vultr-cli/vultr-cli"
@@ -125,6 +125,7 @@ cask "font-intel-one-mono"
 cask "font-source-code-pro"
 cask "hazel"
 cask "karabiner-elements"
+cask "keybase"
 cask "keyboard-maestro"
 cask "little-snitch"
 cask "macfuse"
@@ -155,20 +156,15 @@ mas "Growl", id: 467939042
 mas "iThoughtsX", id: 720669838
 mas "MediaInfo", id: 510620098
 mas "Moom", id: 419330170
-mas "Notability", id: 360593530
-mas "Numbers", id: 409203825
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator", id: 407963104
 mas "Pixelmator Pro", id: 1289583905
 mas "Plash", id: 1494023538
-mas "Playgrounds", id: 1496833156
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
-mas "Scratch 3", id: 1446785996
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
-mas "Slack", id: 803453959
 mas "Speedtest", id: 1153157709
 mas "Tailscale", id: 1475387142
 mas "The Unarchiver", id: 425424353
