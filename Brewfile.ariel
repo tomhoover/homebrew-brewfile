@@ -95,6 +95,7 @@ cask "superduper"
 cask "syncthing"
 cask "tunnelblick"
 cask "veracrypt"
+cask "virtualbox-beta"
 cask "visual-studio-code"
 cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
