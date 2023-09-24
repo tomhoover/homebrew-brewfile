@@ -20,6 +20,7 @@ brew "curl"
 brew "diff-so-fancy"
 brew "direnv"
 brew "docker-completion"
+brew "entr"
 brew "fdupes"
 brew "fzf"
 brew "git"
@@ -38,7 +39,6 @@ brew "midnight-commander"
 brew "mosh"
 brew "mr"
 brew "pinentry-mac"
-brew "pipx"
 brew "rdiff-backup"
 brew "ripgrep"
 brew "rmlint"
@@ -118,3 +118,7 @@ mas "Slack", id: 803453959
 mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
+vscode "mikoz.black-py"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "vscodevim.vim"
