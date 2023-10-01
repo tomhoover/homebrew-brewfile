@@ -91,6 +91,7 @@ cask "resilio-sync"
 cask "scratch"
 cask "superduper"
 cask "syncthing"
+cask "synology-drive"
 cask "tunnelblick"
 cask "veracrypt"
 cask "virtualbox-beta"
@@ -99,6 +100,8 @@ cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AutoMounter", id: 1160435653
+mas "Bible Study", id: 472790630
+mas "Byword", id: 420212497
 mas "Disk Speed Test", id: 425264550
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
