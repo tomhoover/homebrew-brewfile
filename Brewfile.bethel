@@ -57,7 +57,7 @@ brew "hugo"
 brew "iftop"
 brew "iperf"
 brew "iperf3"
-brew "jpeg", link: true
+brew "jpeg"
 brew "jq"
 brew "keychain"
 brew "liblockfile"
