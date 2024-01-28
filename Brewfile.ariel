@@ -60,6 +60,7 @@ brew "socat"
 brew "ssh-copy-id"
 brew "subversion"
 brew "tcl-tk"
+brew "tig"
 brew "tmux"
 brew "tree"
 brew "vcsh"
@@ -79,7 +80,6 @@ cask "bartender"
 cask "brave-browser"
 cask "caffeine"
 cask "caldigit-docking-utility"
-cask "calibre"
 cask "chromedriver"
 cask "daisydisk"
 cask "devonthink"
@@ -138,6 +138,7 @@ mas "Microsoft Word", id: 462054704
 mas "Moom", id: 419330170
 mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
+mas "Omnivore", id: 1564031042
 mas "OneDrive", id: 823766827
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
