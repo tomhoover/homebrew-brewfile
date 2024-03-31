@@ -8,6 +8,7 @@ tap "kha7iq/tap"
 tap "tomhoover/shellcheck"
 brew "xz"
 brew "openssl@3"
+brew "sqlite"
 brew "xorgproto"
 brew "autoconf"
 brew "automake"
@@ -37,7 +38,6 @@ brew "glib-networking"
 brew "gnu-getopt"
 brew "gnupg"
 brew "go"
-brew "sqlite"
 brew "gobject-introspection"
 brew "openssl@1.1"
 brew "grc"
@@ -108,8 +108,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-source-code-pro"
 cask "font-symbols-only-nerd-font"
 cask "fujitsu-scansnap-manager"
+cask "gns3"
 cask "google-chrome"
-cask "gramps"
 cask "gstreamer-runtime"
 cask "hazel"
 cask "iterm2"
@@ -136,6 +136,7 @@ cask "virtualbox-beta"
 cask "visual-studio-code"
 cask "vlc"
 cask "wine-stable"
+cask "wireshark"
 cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
@@ -154,7 +155,6 @@ mas "Numbers", id: 409203825
 mas "Omnivore", id: 1564031042
 mas "OneDrive", id: 823766827
 mas "PCalc", id: 403504866
-mas "PDF Expert", id: 1055273043
 mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
