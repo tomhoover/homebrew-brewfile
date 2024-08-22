@@ -1,7 +1,5 @@
 tap "github/gh"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
 tap "homebrew/services"
 tap "kha7iq/tap"
@@ -21,6 +19,7 @@ brew "glib"
 brew "openjdk"
 brew "bfg"
 brew "boost"
+brew "ffmpeg"
 brew "chromaprint"
 brew "cli53"
 brew "cmake"
@@ -35,7 +34,6 @@ brew "direnv"
 brew "dos2unix"
 brew "exiftool"
 brew "fdupes"
-brew "ffmpeg"
 brew "fio"
 brew "fzf"
 brew "gdbm"
@@ -90,7 +88,6 @@ brew "s3cmd"
 brew "scons"
 brew "shfmt"
 brew "sphinx-doc"
-brew "ssh-copy-id"
 brew "subversion"
 brew "telnet"
 brew "tig"
@@ -152,15 +149,15 @@ mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AudioBookBinder", id: 413969927
 mas "AutoMounter", id: 1160435653
-mas "Bible Study", id: 472790630
 mas "Discovery", id: 1381004916
 mas "Disk Speed Test", id: 425264550
+mas "Drafts", id: 1435957248
 mas "Growl", id: 467939042
 mas "iThoughtsX", id: 720669838
+mas "MediaInfo", id: 510620098
 mas "Moom", id: 419330170
 mas "PCalc", id: 403504866
-mas "Pixelmator", id: 407963104
-mas "Pixelmator Pro", id: 1289583905
+mas "PDF Expert", id: 1055273043
 mas "Plash", id: 1494023538
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
