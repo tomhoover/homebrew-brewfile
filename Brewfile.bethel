@@ -60,7 +60,7 @@ brew "jq"
 brew "keychain"
 brew "liblockfile"
 brew "lzop"
-brew "mariadb"
+brew "mariadb", restart_service: true
 brew "mas"
 brew "meson"
 brew "midnight-commander"
@@ -155,7 +155,7 @@ mas "Drafts", id: 1435957248
 mas "Growl", id: 467939042
 mas "iThoughtsX", id: 720669838
 mas "MediaInfo", id: 510620098
-mas "Moom", id: 419330170
+mas "Moom Classic", id: 419330170
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Plash", id: 1494023538
