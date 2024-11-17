@@ -60,7 +60,7 @@ brew "jq"
 brew "keychain"
 brew "liblockfile"
 brew "lzop"
-brew "mariadb", restart_service: true
+brew "mariadb"
 brew "mas"
 brew "meson"
 brew "midnight-commander"
