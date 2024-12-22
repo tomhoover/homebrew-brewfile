@@ -87,7 +87,7 @@ brew "rsync"
 brew "s3cmd"
 brew "scons"
 brew "shfmt"
-brew "sphinx-doc"
+brew "sphinx-doc", link: false
 brew "subversion"
 brew "telnet"
 brew "tig"
