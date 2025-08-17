@@ -1,14 +1,9 @@
 tap "github/gh"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
-tap "homebrew/services"
 tap "kha7iq/tap"
 tap "tomhoover/shellcheck"
 brew "xz"
 brew "openssl@3"
-brew "sqlite"
 brew "xorgproto"
 brew "autoconf"
 brew "automake"
@@ -24,6 +19,7 @@ brew "diffr"
 brew "direnv"
 brew "docker-completion"
 brew "entr"
+brew "fastfetch"
 brew "fdupes"
 brew "libass"
 brew "libmicrohttpd"
@@ -39,8 +35,8 @@ brew "glib-networking"
 brew "gnu-getopt"
 brew "gnupg"
 brew "go"
+brew "sqlite"
 brew "gobject-introspection"
-brew "openssl@1.1"
 brew "grc"
 brew "gron"
 brew "haskell-stack"
@@ -51,18 +47,16 @@ brew "iperf"
 brew "jq"
 brew "keychain"
 brew "libtool"
-brew "llvm@12"
+brew "llvm"
 brew "llvm@17"
 brew "mas"
 brew "midnight-commander"
 brew "mosh"
 brew "mr"
 brew "ncdu"
-brew "neofetch"
 brew "neovim"
 brew "osm-gps-map"
 brew "pinentry-mac"
-brew "rdiff-backup"
 brew "ripgrep"
 brew "rmlint"
 brew "rsync"
@@ -85,8 +79,8 @@ cask "1password"
 cask "1password-cli"
 cask "alacritty"
 cask "alfred"
-cask "arq5"
 cask "bartender"
+cask "battery"
 cask "brave-browser"
 cask "caffeine"
 cask "caldigit-docking-utility"
@@ -95,10 +89,10 @@ cask "daisydisk"
 cask "db-browser-for-sqlite"
 cask "devonthink"
 cask "discord"
-cask "docker"
+cask "docker-desktop"
 cask "duplicacy-cli"
 cask "firefox"
-cask "flux"
+cask "flux-app"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-freefont"
@@ -109,6 +103,7 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-source-code-pro"
 cask "font-symbols-only-nerd-font"
+cask "fsnotes"
 cask "fujitsu-scansnap-manager"
 cask "gns3"
 cask "google-chrome"
@@ -121,16 +116,15 @@ cask "keyboard-maestro"
 cask "kitty"
 cask "little-snitch"
 cask "macfuse"
-cask "mullvadvpn"
+cask "mullvad-vpn"
 cask "mylio"
-cask "nvalt"
 cask "obsidian"
 cask "openaudible"
 cask "remember-the-milk"
 cask "resilio-sync"
 cask "scratch"
 cask "superduper"
-cask "syncthing"
+cask "syncthing-app"
 cask "synology-drive"
 cask "tunnelblick"
 cask "veracrypt"
@@ -138,14 +132,14 @@ cask "virtualbox@beta"
 cask "visual-studio-code"
 cask "vlc"
 cask "wine-stable"
-cask "wireshark"
+cask "wireshark-app"
 cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AutoMounter", id: 1160435653
 mas "Bible Study", id: 472790630
+mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Byword", id: 420212497
-mas "Disk Speed Test", id: 425264550
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
 mas "Microsoft Excel", id: 462058435
@@ -154,14 +148,12 @@ mas "Microsoft Word", id: 462054704
 mas "Moom Classic", id: 419330170
 mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
-mas "Omnivore", id: 1564031042
+mas "Obsidian Web Clipper", id: 6720708363
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator Pro", id: 1289583905
-mas "Pocket", id: 568494494
-mas "Save to Pocket", id: 1477385213
 mas "Screens", id: 446107677
 mas "Simplenote", id: 692867256
 mas "SingleFile", id: 6444322545
