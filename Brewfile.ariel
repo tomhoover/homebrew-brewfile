@@ -1,5 +1,6 @@
 tap "github/gh"
 tap "homebrew/command-not-found"
+tap "homebrew/core"
 tap "kha7iq/tap"
 tap "tomhoover/shellcheck"
 brew "xz"
@@ -60,6 +61,7 @@ brew "pinentry-mac"
 brew "ripgrep"
 brew "rmlint"
 brew "rsync"
+brew "sleepwatcher", restart_service: :changed
 brew "socat"
 brew "ssh-copy-id"
 brew "subversion"
@@ -80,7 +82,6 @@ cask "1password-cli"
 cask "alacritty"
 cask "alfred"
 cask "bartender"
-cask "battery"
 cask "brave-browser"
 cask "caffeine"
 cask "caldigit-docking-utility"
@@ -120,12 +121,14 @@ cask "mullvad-vpn"
 cask "mylio"
 cask "obsidian"
 cask "openaudible"
+cask "pycharm-ce"
 cask "remember-the-milk"
 cask "resilio-sync"
 cask "scratch"
 cask "superduper"
 cask "syncthing-app"
 cask "synology-drive"
+cask "tailscale-app"
 cask "tunnelblick"
 cask "veracrypt"
 cask "virtualbox@beta"
@@ -142,6 +145,7 @@ mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
+mas "Instapaper", id: 288545208
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Word", id: 462054704
@@ -160,7 +164,6 @@ mas "SingleFile", id: 6444322545
 mas "Slack", id: 803453959
 mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
-mas "Xcode", id: 497799835
 vscode "mikoz.black-py"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
