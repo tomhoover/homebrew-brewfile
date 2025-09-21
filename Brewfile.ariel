@@ -1,4 +1,5 @@
 tap "github/gh"
+tap "homebrew/cask"
 tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "kha7iq/tap"
@@ -121,6 +122,7 @@ cask "mullvad-vpn"
 cask "mylio"
 cask "obsidian"
 cask "openaudible"
+cask "orcaslicer@nightly"
 cask "pycharm-ce"
 cask "remember-the-milk"
 cask "resilio-sync"
@@ -162,6 +164,7 @@ mas "Screens", id: 446107677
 mas "Simplenote", id: 692867256
 mas "SingleFile", id: 6444322545
 mas "Slack", id: 803453959
+mas "Tailscale", id: 1475387142
 mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
