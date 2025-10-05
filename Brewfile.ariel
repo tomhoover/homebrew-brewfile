@@ -35,6 +35,7 @@ brew "gh"
 brew "git"
 brew "glib-networking"
 brew "gnu-getopt"
+brew "gnu-sed"
 brew "gnupg"
 brew "go"
 brew "sqlite"
@@ -82,6 +83,7 @@ cask "1password"
 cask "1password-cli"
 cask "alacritty"
 cask "alfred"
+cask "autodesk-fusion"
 cask "bartender"
 cask "brave-browser"
 cask "caffeine"
@@ -148,6 +150,7 @@ mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
 mas "Instapaper", id: 288545208
+mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Word", id: 462054704
 mas "Moom Classic", id: 419330170
