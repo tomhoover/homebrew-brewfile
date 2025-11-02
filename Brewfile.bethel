@@ -1,5 +1,7 @@
 tap "github/gh"
+tap "homebrew/cask"
 tap "homebrew/command-not-found"
+tap "homebrew/core"
 tap "kha7iq/tap"
 tap "tomhoover/nocodb"
 tap "tomhoover/shellcheck", "https://github.com/tomhoover/homebrew-shellcheck.git"
