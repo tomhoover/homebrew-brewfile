@@ -12,6 +12,7 @@ brew "bash-completion"
 brew "libssh2"
 brew "bat"
 brew "cmake"
+brew "cocoapods"
 brew "colordiff"
 brew "coreutils"
 brew "curl"
@@ -64,6 +65,7 @@ brew "ripgrep"
 brew "rmlint"
 brew "rsync"
 brew "sleepwatcher", restart_service: :changed
+brew "smartmontools"
 brew "socat"
 brew "ssh-copy-id"
 brew "subversion"
@@ -171,9 +173,7 @@ mas "Screens", id: 446107677
 mas "Simplenote", id: 692867256
 mas "SingleFile", id: 6444322545
 mas "Slack", id: 803453959
-mas "Tailscale", id: 1475387142
 mas "WireGuard", id: 1451685025
-mas "Xcode", id: 497799835
 vscode "mikoz.black-py"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
