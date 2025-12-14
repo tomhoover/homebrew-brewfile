@@ -1,6 +1,5 @@
 tap "github/gh"
 tap "homebrew/cask"
-tap "homebrew/command-not-found"
 tap "homebrew/core"
 tap "kha7iq/tap"
 tap "tomhoover/nocodb"
@@ -66,7 +65,7 @@ brew "jq"
 brew "keychain"
 brew "liblockfile"
 brew "lzop"
-brew "mariadb"
+brew "mariadb", restart_service: :changed
 brew "mas"
 brew "meson"
 brew "midnight-commander"
@@ -85,7 +84,6 @@ brew "podman"
 brew "pv"
 brew "pygobject3"
 brew "python@3.10"
-brew "python@3.9"
 brew "qt"
 brew "rclone"
 brew "rcs"
@@ -110,7 +108,6 @@ brew "winetricks"
 brew "yt-dlp"
 brew "z"
 brew "zlib"
-brew "zopfli"
 brew "zsh-completions"
 brew "kha7iq/tap/pingme"
 brew "tomhoover/nocodb/nocodb"
@@ -121,6 +118,7 @@ cask "1password-cli"
 cask "alfred"
 cask "backblaze"
 cask "bartender"
+cask "caffeine"
 cask "digikam"
 cask "discord"
 cask "duplicacy-cli"
@@ -141,7 +139,6 @@ cask "onedrive"
 cask "openwebstart"
 cask "openzfs"
 cask "podman-desktop"
-cask "pycharm-ce"
 cask "resilio-sync"
 cask "sequel-ace"
 cask "suspicious-package"
@@ -153,3 +150,23 @@ cask "veracrypt"
 cask "visual-studio-code"
 cask "xquartz"
 cask "zerotier-one"
+mas "1Password for Safari", id: 1569813296
+mas "AmorphousDiskMark", id: 1168254295
+mas "AudioBookBinder", id: 413969927
+mas "AutoMounter", id: 1160435653
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Discovery", id: 1381004916
+mas "Drafts", id: 1435957248
+mas "Growl", id: 467939042
+mas "iThoughtsX", id: 720669838
+mas "MediaInfo", id: 510620098
+mas "Moom Classic", id: 419330170
+mas "PCalc", id: 403504866
+mas "PDF Expert", id: 1055273043
+mas "Plash", id: 1494023538
+mas "Screens", id: 446107677
+mas "SiteSucker", id: 442168834
+mas "Speedtest", id: 1153157709
+mas "Tailscale", id: 1475387142
+mas "The Unarchiver", id: 425424353
+mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
