@@ -71,7 +71,7 @@ brew "mariadb"
 brew "mas"
 brew "meson"
 brew "midnight-commander"
-brew "minio"
+brew "minio", restart_service: :changed
 brew "mkvtoolnix"
 brew "mosh"
 brew "mosquitto"
