@@ -10,7 +10,6 @@ brew "jpeg-turbo"
 brew "xz"
 brew "openexr"
 brew "openssl@3"
-brew "bash-completion", link: false
 brew "bash-completion@2"
 brew "bat"
 brew "beancount"
@@ -121,7 +120,6 @@ cask "alfred"
 cask "backblaze"
 cask "bartender"
 cask "caffeine"
-cask "digikam"
 cask "discord"
 cask "docker-desktop"
 cask "duplicacy-cli"
@@ -169,6 +167,5 @@ mas "Plash", id: 1494023538
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Speedtest", id: 1153157709
-mas "Tailscale", id: 1475387142
 mas "The Unarchiver", id: 425424353
 mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
