@@ -68,7 +68,7 @@ brew "jq"
 brew "keychain"
 brew "liblockfile"
 brew "lzop"
-brew "mariadb"
+brew "mariadb", restart_service: :changed
 brew "mas"
 brew "meson"
 brew "midnight-commander"
