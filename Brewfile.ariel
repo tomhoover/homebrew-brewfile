@@ -32,6 +32,7 @@ brew "gh"
 brew "pango"
 brew "ghostscript"
 brew "git"
+brew "git-delta"
 brew "glib-networking"
 brew "gnu-getopt"
 brew "gnu-sed"
@@ -72,6 +73,7 @@ brew "smartmontools"
 brew "socat"
 brew "ssh-copy-id"
 brew "starship"
+brew "stow"
 brew "subversion"
 brew "tcl-tk"
 brew "tig"
@@ -82,6 +84,7 @@ brew "vcsh"
 brew "vim"
 brew "watch"
 brew "wget"
+brew "yazi"
 brew "z"
 brew "zlib"
 brew "zoxide"
@@ -91,7 +94,6 @@ brew "slp/krunkit/krunkit"
 brew "tobi/try/try"
 cask "1password"
 cask "1password-cli"
-cask "alacritty"
 cask "alfred"
 cask "autodesk-fusion"
 cask "bartender"
@@ -143,6 +145,7 @@ cask "obsidian"
 cask "openaudible"
 cask "orbstack"
 cask "orcaslicer@nightly"
+cask "p4v"
 cask "pycharm"
 cask "qidistudio"
 cask "remember-the-milk"
@@ -162,31 +165,6 @@ cask "wine-stable"
 cask "wireshark-app"
 cask "zerotier-one"
 cask "zettlr"
-mas "1Password for Safari", id: 1569813296
-mas "AmorphousDiskMark", id: 1168254295
-mas "AutoMounter", id: 1160435653
-mas "Bible Study", id: 472790630
-mas "Blackmagic Disk Speed Test", id: 425264550
-mas "Byword", id: 420212497
-mas "Drafts", id: 1435957248
-mas "Infuse", id: 1136220934
-mas "Instapaper", id: 288545208
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft Word", id: 462054704
-mas "Moom Classic", id: 419330170
-mas "Notability", id: 360593530
-mas "Numbers", id: 409203825
-mas "Obsidian Web Clipper", id: 6720708363
-mas "OneDrive", id: 823766827
-mas "Pages", id: 409201541
-mas "PCalc", id: 403504866
-mas "PDF Expert", id: 1055273043
-mas "Pixelmator Pro", id: 1289583905
-mas "Screens", id: 446107677
-mas "Simplenote", id: 692867256
-mas "SingleFile", id: 6444322545
-mas "Slack", id: 803453959
-mas "WireGuard", id: 1451685025
 vscode "mikoz.black-py"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
