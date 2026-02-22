@@ -10,6 +10,7 @@ brew "openssl@3"
 brew "xorgproto"
 brew "autoconf"
 brew "automake"
+brew "bash"
 brew "bash-completion@2"
 brew "cmake"
 brew "cocoapods"
@@ -49,6 +50,7 @@ brew "hub"
 brew "iperf"
 brew "jq"
 brew "keychain"
+brew "launchctl-completion"
 brew "libass"
 brew "liblockfile"
 brew "libmicrohttpd"
@@ -62,6 +64,7 @@ brew "mr"
 brew "ncdu"
 brew "neovim"
 brew "ocrmypdf"
+brew "open-completion"
 brew "osm-gps-map"
 brew "pinentry-mac"
 brew "poppler"
@@ -77,6 +80,7 @@ brew "stow"
 brew "subversion"
 brew "tcl-tk"
 brew "tig"
+brew "tmate"
 brew "tmux"
 brew "todo-txt"
 brew "tree"
@@ -165,6 +169,27 @@ cask "wine-stable"
 cask "wireshark-app"
 cask "zerotier-one"
 cask "zettlr"
+mas "1Password for Safari", id: 1569813296
+mas "AmorphousDiskMark", id: 1168254295
+mas "AutoMounter", id: 1160435653
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Byword", id: 420212497
+mas "Drafts", id: 1435957248
+mas "Infuse", id: 1136220934
+mas "Instapaper", id: 288545208
+mas "Moom Classic", id: 419330170
+mas "Numbers", id: 409203825
+mas "Obsidian Web Clipper", id: 6720708363
+mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
+mas "PCalc", id: 403504866
+mas "PDF Expert", id: 1055273043
+mas "Pixelmator Pro", id: 1289583905
+mas "Screens", id: 446107677
+mas "Simplenote", id: 692867256
+mas "SingleFile", id: 6444322545
+mas "Slack", id: 803453959
+mas "WireGuard", id: 1451685025
 vscode "mikoz.black-py"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
