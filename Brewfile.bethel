@@ -10,6 +10,7 @@ brew "jpeg-turbo"
 brew "xz"
 brew "openexr"
 brew "openssl@3"
+brew "bash"
 brew "bash-completion@2"
 brew "beancount"
 brew "boost"
@@ -101,13 +102,13 @@ brew "subversion"
 brew "telnet"
 brew "tig"
 brew "tmux"
-brew "tmuxinator"
 brew "tree"
 brew "vcsh"
 brew "vim"
 brew "watch"
 brew "wget"
 brew "winetricks"
+brew "yazi"
 brew "yt-dlp"
 brew "z"
 brew "zlib"
@@ -172,6 +173,5 @@ mas "Plash", id: 1494023538
 mas "Screens", id: 446107677
 mas "SiteSucker", id: 442168834
 mas "Speedtest", id: 1153157709
-mas "Tailscale", id: 1475387142
 mas "The Unarchiver", id: 425424353
 mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
