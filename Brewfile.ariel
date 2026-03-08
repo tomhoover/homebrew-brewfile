@@ -105,6 +105,7 @@ cask "brave-browser"
 cask "caffeine"
 cask "caldigit-docking-utility"
 cask "chromedriver"
+cask "claude"
 cask "daisydisk"
 cask "db-browser-for-sqlite"
 cask "devonthink"
@@ -162,21 +163,26 @@ cask "synology-drive"
 cask "tailscale-app"
 cask "tunnelblick"
 cask "veracrypt"
-cask "virtualbox@beta"
 cask "visual-studio-code"
 cask "vlc"
 cask "wine-stable"
-cask "wireshark-app"
 cask "zerotier-one"
 cask "zettlr"
+mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AutoMounter", id: 1160435653
+mas "Bible Study", id: 472790630
 mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Brother iPrint&Scan", id: 1193539993
 mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
+mas "Infuse", id: 1136220934
 mas "Instapaper", id: 288545208
+mas "Microsoft Excel", id: 462058435
 mas "Moom Classic", id: 419330170
+mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
+mas "Obsidian Web Clipper", id: 6720708363
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "PCalc", id: 403504866
@@ -184,9 +190,11 @@ mas "PDF Expert", id: 1055273043
 mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 446107677
 mas "Simplenote", id: 692867256
+mas "SingleFile", id: 6444322545
 mas "WireGuard", id: 1451685025
 vscode "mikoz.black-py"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "vscodevim.vim"
+uv "ansible", with: ["ansible-core", "ansible-lint", "netaddr", "passlib", "requests"]
