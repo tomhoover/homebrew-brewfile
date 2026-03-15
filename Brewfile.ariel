@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "kha7iq/tap"
 tap "slp/krunkit"
 tap "tobi/try", "https://github.com/tobi/try"
+tap "tomhoover/git-wt"
 tap "tomhoover/shellcheck"
 brew "xz"
 brew "openssl@3"
@@ -96,6 +97,7 @@ brew "zsh-completions"
 brew "kha7iq/tap/pingme"
 brew "slp/krunkit/krunkit"
 brew "tobi/try/try"
+brew "tomhoover/git-wt/git-wt"
 cask "1password"
 cask "1password-cli"
 cask "alfred"
@@ -179,6 +181,7 @@ mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
 mas "Instapaper", id: 288545208
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft Word", id: 462054704
 mas "Moom Classic", id: 419330170
 mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
