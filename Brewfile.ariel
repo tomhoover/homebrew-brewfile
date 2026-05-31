@@ -222,3 +222,4 @@ vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "vscodevim.vim"
 uv "ansible", with: ["ansible-core", "ansible-lint", "netaddr", "passlib", "requests"]
+npm "corepack"
