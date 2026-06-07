@@ -1,12 +1,9 @@
-tap "asheshgoplani/tap"
-tap "github/gh"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "kha7iq/tap"
 tap "slp/krunkit"
 tap "tobi/try", "https://github.com/tobi/try"
 tap "tomhoover/git-wt"
-tap "tomhoover/shellcheck"
 brew "xorgproto"
 brew "xz"
 brew "icu4c@78"
@@ -29,7 +26,6 @@ brew "ffmpeg"
 brew "czkawka"
 brew "diff-so-fancy"
 brew "diffr"
-brew "docker-completion"
 brew "entr"
 brew "exiftool"
 brew "fastfetch"
@@ -107,7 +103,6 @@ brew "zk"
 brew "zlib"
 brew "zoxide"
 brew "zsh-completions"
-brew "asheshgoplani/tap/agent-deck"
 brew "kha7iq/tap/pingme"
 brew "slp/krunkit/krunkit"
 brew "tobi/try/try"
@@ -164,7 +159,6 @@ cask "kiwix"
 cask "little-snitch"
 cask "macdown-3000"
 cask "macfuse"
-cask "mark-text"
 cask "mullvad-vpn"
 cask "mylio"
 cask "obsidian"
@@ -200,7 +194,6 @@ mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
 mas "Instapaper", id: 288545208
-mas "Microsoft Excel", id: 462058435
 mas "Microsoft Word", id: 462054704
 mas "Moom Classic", id: 419330170
 mas "Notability", id: 360593530
