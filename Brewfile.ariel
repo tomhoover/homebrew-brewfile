@@ -4,129 +4,247 @@ tap "kha7iq/tap"
 tap "slp/krunkit"
 tap "tobi/try", "https://github.com/tobi/try"
 tap "tomhoover/git-wt"
+# X.Org: Protocol Headers
 brew "xorgproto"
+# General-purpose data compression with high compression ratio
 brew "xz"
+# C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@78"
+# Framework for layout and rendering of i18n text
 brew "pango"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Command-line interface for SQLite
 brew "sqlite"
+# AI pair programming in your terminal
 brew "aider"
+# Automatic configure script builder
 brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# Programmable completion for Bash 4.2+
 brew "bash-completion@2"
+# C library implementing the SSH2 protocol
 brew "libssh2"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Cross-platform make
 brew "cmake"
+# Dependency manager for Cocoa projects
 brew "cocoapods"
+# Color-highlighted diff(1) output
 brew "colordiff"
+# GNU File, Shell, and Text utilities
 brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Duplicate file utility
 brew "czkawka"
+# Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# LCS based diff highlighting tool to ease code review from your terminal
 brew "diffr"
+# Run arbitrary commands when files change
 brew "entr"
+# Perl lib for reading and writing EXIF metadata
 brew "exiftool"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# Identify or delete duplicate files
 brew "fdupes"
+# Monitor a directory for changes and run a shell command
 brew "fswatch"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU awk utility
 brew "gawk"
+# GObject wrapper around the Exiv2 photo metadata library
 brew "gexiv2"
+# GitHub command-line tool
 brew "gh"
+# Interpreter for PostScript and PDF
 brew "ghostscript"
+# Distributed revision control system
 brew "git"
+# Manage files with git without checking in file contents
 brew "git-annex"
+# Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Network related modules for glib
 brew "glib-networking"
+# Command-line option parsing utility
 brew "gnu-getopt"
+# GNU implementation of the famous stream editor
 brew "gnu-sed"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Colorize logfiles and command output
 brew "grc"
+# GNU grep, egrep and fgrep
 brew "grep"
+# Make JSON greppable
 brew "gron"
+# Cross-platform program for developing Haskell projects
 brew "haskell-stack"
+# Easy plain text accounting with command-line, terminal and web UIs
 brew "hledger"
+# Add GitHub support to git on the command-line
 brew "hub"
+# Tool to measure maximum TCP and UDP bandwidth
 brew "iperf"
+# Duplicate file finder and an enhanced fork of 'fdupes'
 brew "jdupes"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# User-friendly front-end to ssh-agent(1)
 brew "keychain"
+# Bash completion for Launchctl
 brew "launchctl-completion"
+# Subtitle renderer for the ASS/SSA subtitle format
 brew "libass"
+# Library providing functions to lock standard mailboxes
 brew "liblockfile"
+# Light HTTP/1.1 server library
 brew "libmicrohttpd"
+# Generic library support script
 brew "libtool"
+# Next-gen compiler infrastructure
 brew "llvm"
+# Next-gen compiler infrastructure
 brew "llvm@17"
+# Mac App Store command-line interface
 brew "mas"
+# Terminal-based visual file manager
 brew "midnight-commander"
+# Remote terminal application
 brew "mosh"
+# Multiple Repository management tool
 brew "mr"
+# NCurses Disk Usage
 brew "ncdu"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
+# Create, run, and share large language models (LLMs)
 brew "ollama"
+# Bash completion for open
 brew "open-completion"
+# GTK+ library to embed OpenStreetMap maps
 brew "osm-gps-map"
+# Shell command parallelization utility
 brew "parallel"
+# Pinentry for GPG on Mac
 brew "pinentry-mac"
+# PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
+# Multi-agent orchestration framework for autonomous AI task completion
 brew "ralph-orchestrator"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Extremely fast tool to remove dupes and other lint from your filesystem
 brew "rmlint"
+# Utility that provides fast incremental file transfer
 brew "rsync"
+# Monitors sleep, wakeup, and idleness of a Mac
 brew "sleepwatcher", restart_service: :changed
+# SMART hard drive monitoring
 brew "smartmontools"
+# SOcket CAT: netcat on steroids
 brew "socat"
+# Add a public key to a remote machine's authorized_keys file
 brew "ssh-copy-id"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Version control system designed to be a better CVS
 brew "subversion"
+# Manipulate and query tags on macOS files
 brew "tag"
+# Tool Command Language
 brew "tcl-tk"
+# Text interface for Git repositories
 brew "tig"
+# Terminal multiplexer
 brew "tmux"
+# Minimal, todo.txt-focused editor
 brew "todo-txt"
+# Command-line interface to the freedesktop.org trashcan
 brew "trash-cli"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Config manager based on git
 brew "vcsh"
+# Vi 'workalike' with many additional features
 brew "vim"
+# Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
 brew "wget"
+# Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# Tool for managing your YubiKey configuration
 brew "ykman"
+# Plain text note-taking assistant
 brew "zk"
+# General-purpose lossless data-compression library
 brew "zlib"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Additional completion definitions for zsh
 brew "zsh-completions"
-brew "kha7iq/tap/pingme"
-brew "slp/krunkit/krunkit"
-brew "tobi/try/try"
-brew "tomhoover/git-wt/git-wt"
+# Lightweight git worktree wrapper with consistent naming convention
+brew "tomhoover/git-wt/git-wt", trusted: true
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
 cask "1password-cli"
+# Application launcher and productivity software
 cask "alfred"
+# Integrated CAD, CAM, CAE, and PCB software
 cask "autodesk-fusion"
+# Menu bar icon organiser
 cask "bartender"
+# Web browser focusing on privacy
 cask "brave-browser"
+# Utility that prevents the system from going to sleep
 cask "caffeine"
+# Utility to disconnect all drives connected to a Caldigit dock
 cask "caldigit-docking-utility"
+# OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
 cask "claude"
+# OpenAI's Codex desktop app for managing coding agents
 cask "codex-app"
+# Disk space visualiser
 cask "daisydisk"
+# Browser for SQLite databases
 cask "db-browser-for-sqlite"
+# Universal database tool and SQL client
 cask "dbeaver-community"
+# Collect, organise, edit and annotate documents
 cask "devonthink"
+# Digital photo manager
 cask "digikam"
+# Voice and text chat software
 cask "discord"
+# Finds duplicate files in a computer system
 cask "dupeguru"
+# Cloud backup tool
 cask "duplicacy-cli"
+# Web browser
 cask "firefox"
+# Screen colour temperature controller
 cask "flux-app"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
@@ -138,51 +256,99 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-source-code-pro"
 cask "font-symbols-only-nerd-font"
+# 3D parametric modeller
 cask "freecad"
+# Notes manager
 cask "fsnotes"
+# Scan software for Fujitsu document scanners
 cask "fujitsu-scansnap-manager"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Git GUI
 cask "gitx"
+# GUI for the Dynamips Cisco router emulator
 cask "gns3"
+# Web browser
 cask "google-chrome"
+# Genealogy software
 cask "gramps"
+# Open Source Multimedia Framework
 cask "gstreamer-runtime"
+# Automated organisation
 cask "hazel"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Enables an integrated web browser in iTerm2
 cask "itermbrowserplugin"
+# Menu bar manager
 cask "jordanbaird-ice@beta"
+# Keyboard customiser
 cask "karabiner-elements"
+# End-to-end encryption software
 cask "keybase"
+# Automation software
 cask "keyboard-maestro"
+# GPU-based terminal emulator
 cask "kitty"
+# App providing offline access to Wikipedia and many other web sites
 cask "kiwix"
+# Host-based application firewall
 cask "little-snitch"
+# Markdown editor with live preview and syntax highlighting
 cask "macdown-3000"
+# File system integration
 cask "macfuse"
+# VPN client
 cask "mullvad-vpn"
+# Photo organiser
 cask "mylio"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Audiobook manager for Audible users
 cask "openaudible"
+# AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
+cask "openusage"
+# Replacement for Docker Desktop
 cask "orbstack"
+# G-code generator for 3D printers
 cask "orcaslicer"
+# Visual client for Helix Core
 cask "p4v"
+# IDE for professional Python development
 cask "pycharm"
+# Slicer software for QIDI 3D printers
 cask "qidistudio"
+# To-do app
 cask "remember-the-milk"
+# File sync and share software
 cask "resilio-sync"
+# Programmes interactive stories, games, and animations
 cask "scratch"
+# Sound and audio controller
 cask "soundsource"
+# Backup, recovery and cloning software
 cask "superduper"
+# Real time file synchronisation software
 cask "syncthing-app"
+# Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# Mesh VPN based on WireGuard
 cask "tailscale-app"
+# Free and open-source OpenVPN client
 cask "tunnelblick"
+# Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
+# Virtualiser for arm64 hardware
 cask "virtualbox@beta"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+# Compatibility layer to run Windows applications
 cask "wine-stable"
+# Mesh VPN client
 cask "zerotier-one"
+# Open-source markdown editor
 cask "zettlr"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
@@ -194,6 +360,7 @@ mas "Byword", id: 420212497
 mas "Drafts", id: 1435957248
 mas "Infuse", id: 1136220934
 mas "Instapaper", id: 288545208
+mas "Microsoft Excel", id: 462058435
 mas "Microsoft Word", id: 462054704
 mas "Moom Classic", id: 419330170
 mas "Notability", id: 360593530
