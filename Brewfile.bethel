@@ -2,159 +2,306 @@ tap "github/gh"
 tap "kha7iq/tap"
 tap "slp/krunkit"
 tap "tomhoover/nocodb"
-tap "tomhoover/shellcheck", "https://github.com/tomhoover/homebrew-shellcheck.git"
+tap "tomhoover/shellcheck"
 tap "vultr/vultr-cli"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# Programmable completion for Bash 4.2+
 brew "bash-completion@2"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# General-purpose data compression with high compression ratio
 brew "xz"
+# Double-entry accounting tool that works on plain text files
 brew "beancount"
+# Collection of portable C++ source libraries
 brew "boost"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Core application library for C
 brew "glib"
+# Easily download, build, install, upgrade, and uninstall Python packages
 brew "python-setuptools"
+# AV1 encoder
 brew "svt-av1"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# OpenType text shaping engine
 brew "harfbuzz"
+# C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@77"
+# JPEG image codec that aids compression and decompression
 brew "jpeg-turbo"
+# High dynamic-range image file format
 brew "openexr"
+# Cryptographic & SSL/TLS library
 brew "mbedtls"
+# Framework for layout and rendering of i18n text
 brew "pango"
+# OCR (Optical Character Recognition) engine
 brew "tesseract"
+# Core component of the AcoustID project (Audio fingerprinting)
 brew "chromaprint"
+# Command-line tool for Amazon Route 53
 brew "cli53"
+# Cross-platform make
 brew "cmake"
+# Strongly specified, highly compatible implementation of Markdown
 brew "cmark"
+# Dependency manager for Cocoa projects
 brew "cocoapods"
+# Color-highlighted diff(1) output
 brew "colordiff"
+# GNU File, Shell, and Text utilities
 brew "coreutils"
+# Get, unpack, build, and install modules from CPAN
 brew "cpanminus"
+# Cross-platform, efficient and practical CSV/TSV toolkit in Golang
 brew "csvtk"
+# Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Load/unload environment variables based on $PWD
 brew "direnv"
+# Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
+# Perl lib for reading and writing EXIF metadata
 brew "exiftool"
+# XML 1.0 parser
 brew "expat"
+# Identify or delete duplicate files
 brew "fdupes"
+# I/O benchmark and stress test
 brew "fio"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# S3 object store so reliable you can run it outside datacenters
 brew "garage"
+# GNU database manager
 brew "gdbm"
+# GitHub command-line tool
 brew "gh"
+# Glorious Glasgow Haskell Compilation System
 brew "ghc"
+# Distributed revision control system
 brew "git"
+# Manage files with git without checking in file contents
 brew "git-annex"
+# Tool Command Language
 brew "tcl-tk"
+# Tcl/Tk UI for the git revision control system
 brew "git-gui"
+# Command-line option parsing utility
 brew "gnu-getopt"
+# GNU implementation of the famous stream editor
 brew "gnu-sed"
+# Library for USB device access
 brew "libusb"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Colorize logfiles and command output
 brew "grc"
+# GNU grep, egrep and fgrep
 brew "grep"
+# Improved top (interactive process viewer)
 brew "htop"
+# Add GitHub support to git on the command-line
 brew "hub"
-brew "hugo"
+# Display an interface's bandwidth usage
 brew "iftop"
+# Tool to measure maximum TCP and UDP bandwidth
 brew "iperf"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
 brew "iperf3"
+# Duplicate file finder and an enhanced fork of 'fdupes'
+brew "jdupes"
+# Image manipulation library
 brew "jpeg"
+# Lightweight and flexible command-line JSON processor
 brew "jq"
+# User-friendly front-end to ssh-agent(1)
 brew "keychain"
+# Library providing functions to lock standard mailboxes
 brew "liblockfile"
+# File compressor
 brew "lzop"
+# Drop-in replacement for MySQL
 brew "mariadb"
+# Mac App Store command-line interface
 brew "mas"
+# Fast and user friendly build system
 brew "meson"
+# Terminal-based visual file manager
 brew "midnight-commander"
+# High Performance, Kubernetes Native Object Storage
 brew "minio", restart_service: :changed
+# Matroska media files manipulation tools
 brew "mkvtoolnix"
+# Remote terminal application
 brew "mosh"
+# Message broker implementing the MQTT protocol
 brew "mosquitto"
+# Multiple Repository management tool
 brew "mr"
+# Mongrel of mail user agents (part elm, pine, mush, mh, etc.)
 brew "mutt"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Development kit for the Java programming language
 brew "openjdk"
+# Swiss-army knife of markup format conversion
 brew "pandoc"
+# Extract just secret information out of OpenPGP secret keys
 brew "paperkey"
+# Shell command parallelization utility
 brew "parallel"
+# Highly capable, feature-rich programming language
 brew "perl"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Monitor data's progress through a pipe
 brew "pv"
+# GNOME Python bindings (based on GObject Introspection)
 brew "pygobject3"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
+# Cross-platform application and UI framework
 brew "qt"
+# Rsync for cloud storage
 brew "rclone"
+# GNU revision control system
 brew "rcs"
+# Fast, efficient and secure backup program
 brew "restic"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Extremely fast tool to remove dupes and other lint from your filesystem
 brew "rmlint"
+# Utility that provides fast incremental file transfer
 brew "rsync"
+# Command-line tool for the Amazon S3 service
 brew "s3cmd"
+# Substitute for classic 'make' tool with autoconf/automake functionality
 brew "scons"
+# Tool to create intelligent and beautiful documentation
 brew "sphinx-doc"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Version control system designed to be a better CVS
 brew "subversion"
+# User interface to the TELNET protocol
 brew "telnet"
+# Text interface for Git repositories
 brew "tig"
+# Terminal multiplexer
 brew "tmux"
+# Command-line interface to the freedesktop.org trashcan
+brew "trash-cli"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Config manager based on git
 brew "vcsh"
+# Vi 'workalike' with many additional features
 brew "vim"
+# Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
 brew "wget"
+# Automatic workarounds for problems in Wine
 brew "winetricks"
+# Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# General-purpose lossless data-compression library
 brew "zlib"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Additional completion definitions for zsh
 brew "zsh-completions"
-brew "kha7iq/tap/pingme"
-brew "slp/krunkit/krunkit"
+# NocoDB : Opensource smart spreadsheet
 brew "tomhoover/nocodb/nocodb"
-brew "vultr/vultr-cli/vultr-cli"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
 cask "1password-cli"
+# Application launcher and productivity software
 cask "alfred"
+# Data backup and storage service
 cask "backblaze"
+# Menu bar icon organiser
 cask "bartender"
+# Web browser focusing on privacy
 cask "brave-browser"
+# Utility that prevents the system from going to sleep
 cask "caffeine"
+# Voice and text chat software
 cask "discord"
+# Cloud backup tool
 cask "duplicacy-cli"
+# Cloud backup tool
 cask "duplicacy-web-edition"
 cask "font-intel-one-mono"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-source-code-pro"
 cask "font-symbols-only-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Automated organisation
 cask "hazel"
+# Keyboard customiser
 cask "karabiner-elements"
+# End-to-end encryption software
 cask "keybase"
+# Automation software
 cask "keyboard-maestro"
+# Host-based application firewall
 cask "little-snitch"
+# File system integration
 cask "macfuse"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Cloud storage client
 cask "onedrive"
+# Tool to run Java Web Start-based applications after the release of Java 11
 cask "openwebstart"
+# ZFS driver and utilities
 cask "openzfs"
+# Replacement for Docker Desktop
 cask "orbstack"
+# File sync and share software
 cask "resilio-sync"
+# MySQL/MariaDB database management
 cask "sequel-ace"
+# Application for inspecting installer packages
 cask "suspicious-package"
+# Real time file synchronisation software
 cask "syncthing-app"
+# Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# Mesh VPN based on WireGuard
 cask "tailscale-app"
+# JDK from the Eclipse Foundation (Adoptium)
 cask "temurin"
+# Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
+# Open-source code editor
 cask "visual-studio-code"
+# Open-source version of the X.Org X Window System
 cask "xquartz"
+# Mesh VPN client
 cask "zerotier-one"
 mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
@@ -175,3 +322,4 @@ mas "SiteSucker", id: 442168834
 mas "Speedtest", id: 1153157709
 mas "The Unarchiver", id: 425424353
 mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
+npm "corepack"
