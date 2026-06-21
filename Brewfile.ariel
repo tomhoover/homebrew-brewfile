@@ -30,6 +30,10 @@ brew "bash-completion@2"
 brew "libssh2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Interface bandwidth monitor
+brew "bmon"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
 # Cross-platform make
 brew "cmake"
 # Dependency manager for Cocoa projects
@@ -220,8 +224,6 @@ cask "brave-browser"
 cask "caffeine"
 # Utility to disconnect all drives connected to a Caldigit dock
 cask "caldigit-docking-utility"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # OpenAI's Codex desktop app for managing coding agents
@@ -350,10 +352,8 @@ cask "wine-stable"
 cask "zerotier-one"
 # Open-source markdown editor
 cask "zettlr"
-mas "1Password for Safari", id: 1569813296
 mas "AmorphousDiskMark", id: 1168254295
 mas "AutoMounter", id: 1160435653
-mas "Bible Study", id: 472790630
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Brother iPrint&Scan", id: 1193539993
 mas "Byword", id: 420212497
@@ -365,12 +365,10 @@ mas "Microsoft Word", id: 462054704
 mas "Moom Classic", id: 419330170
 mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
-mas "Obsidian Web Clipper", id: 6720708363
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "PCalc", id: 403504866
 mas "PDF Expert", id: 1055273043
-mas "PDFgear", id: 6469021132
 mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 446107677
 mas "Simplenote", id: 692867256
