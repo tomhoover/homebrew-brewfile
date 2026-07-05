@@ -332,8 +332,6 @@ cask "remember-the-milk"
 cask "resilio-sync"
 # Programmes interactive stories, games, and animations
 cask "scratch"
-# Sound and audio controller
-cask "soundsource"
 # Backup, recovery and cloning software
 cask "superduper"
 # Real time file synchronisation software
