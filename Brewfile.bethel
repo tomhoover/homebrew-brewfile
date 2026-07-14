@@ -1,6 +1,8 @@
 tap "github/gh"
 tap "kha7iq/tap"
+tap "moghtech/komodo", trusted: { formulae: ["periphery"] }
 tap "slp/krunkit"
+tap "tomhoover/komodo"
 tap "tomhoover/nocodb"
 tap "tomhoover/shellcheck", "https://github.com/tomhoover/homebrew-shellcheck.git"
 tap "vultr/vultr-cli"
@@ -232,6 +234,8 @@ brew "zlib"
 brew "zoxide"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Agent to connect with Komodo Core
+brew "tomhoover/komodo/periphery", trusted: true
 # NocoDB : Opensource smart spreadsheet
 brew "tomhoover/nocodb/nocodb"
 # Password manager that keeps all passwords secure behind one password
