@@ -1,9 +1,11 @@
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "kha7iq/tap"
+tap "moghtech/komodo", trusted: { formulae: ["periphery"] }
 tap "slp/krunkit"
 tap "tobi/try", "https://github.com/tobi/try"
 tap "tomhoover/git-wt"
+tap "tomhoover/komodo"
 # X.Org: Protocol Headers
 brew "xorgproto"
 # General-purpose data compression with high compression ratio
@@ -212,6 +214,8 @@ brew "zoxide"
 brew "zsh-completions"
 # Lightweight git worktree wrapper with consistent naming convention
 brew "tomhoover/git-wt/git-wt", trusted: true
+# Agent to connect with Komodo Core
+brew "tomhoover/komodo/periphery", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -232,8 +236,6 @@ cask "caldigit-docking-utility"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# OpenAI's Codex desktop app for managing coding agents
-cask "codex-app"
 # Disk space visualiser
 cask "daisydisk"
 # Browser for SQLite databases
@@ -244,8 +246,6 @@ cask "dbeaver-community"
 cask "devonthink"
 # Digital photo manager
 cask "digikam"
-# Voice and text chat software
-cask "discord"
 # Finds duplicate files in a computer system
 cask "dupeguru"
 # Cloud backup tool
@@ -268,7 +268,6 @@ cask "font-symbols-only-nerd-font"
 cask "freecad"
 # Notes manager
 cask "fsnotes"
-# Scan software for Fujitsu document scanners
 cask "fujitsu-scansnap-manager"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
@@ -276,8 +275,6 @@ cask "ghostty"
 cask "gitx"
 # GUI for the Dynamips Cisco router emulator
 cask "gns3"
-# Web browser
-cask "google-chrome"
 # Genealogy software
 cask "gramps"
 # Open Source Multimedia Framework
@@ -312,10 +309,10 @@ cask "mullvad-vpn"
 cask "mylio"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Audiobook manager for Audible users
-cask "openaudible"
 # AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
 cask "openusage"
+# ZFS driver and utilities
+cask "openzfs"
 # Replacement for Docker Desktop
 cask "orbstack"
 # G-code generator for 3D printers
@@ -346,8 +343,6 @@ cask "tunnelblick"
 cask "veracrypt"
 # Virtualiser for arm64 hardware
 cask "virtualbox@beta"
-# Open-source code editor
-cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Compatibility layer to run Windows applications
@@ -368,6 +363,7 @@ mas "Infuse", id: 1136220934
 mas "Instapaper", id: 288545208
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Word", id: 462054704
+mas "MonitorDetector", id: 1613340764
 mas "Moom Classic", id: 419330170
 mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
@@ -379,6 +375,7 @@ mas "PDF Expert", id: 1055273043
 mas "PDFgear", id: 6469021132
 mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 446107677
+mas "ScreenTest", id: 6757317079
 mas "Simplenote", id: 692867256
 mas "SingleFile", id: 6444322545
 mas "WireGuard", id: 1451685025
