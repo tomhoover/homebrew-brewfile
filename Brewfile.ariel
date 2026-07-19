@@ -1,3 +1,4 @@
+tap "darrylmorley/whatcable"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "kha7iq/tap"
@@ -72,6 +73,8 @@ brew "gawk"
 brew "gexiv2"
 # GitHub command-line tool
 brew "gh"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Interpreter for PostScript and PDF
 brew "ghostscript"
 # Distributed revision control system
@@ -212,6 +215,8 @@ brew "zlib"
 brew "zoxide"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Fresh directories for every vibe - lightweight experiments for people with ADHD
+brew "tobi/try/try"
 # Lightweight git worktree wrapper with consistent naming convention
 brew "tomhoover/git-wt/git-wt", trusted: true
 # Agent to connect with Komodo Core
@@ -268,7 +273,6 @@ cask "font-symbols-only-nerd-font"
 cask "freecad"
 # Notes manager
 cask "fsnotes"
-cask "fujitsu-scansnap-manager"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Git GUI
@@ -331,6 +335,8 @@ cask "resilio-sync"
 cask "scratch"
 # Backup, recovery and cloning software
 cask "superduper"
+# Dictation tool including LLM reformatting
+cask "superwhisper"
 # Real time file synchronisation software
 cask "syncthing-app"
 # Sync and backup service to Synology NAS drives
@@ -345,6 +351,8 @@ cask "veracrypt"
 cask "virtualbox@beta"
 # Multimedia player
 cask "vlc"
+# Menu bar app for USB-C cable diagnostics
+cask "darrylmorley/whatcable/whatcable", trusted: true
 # Compatibility layer to run Windows applications
 cask "wine-stable"
 # Mesh VPN client
