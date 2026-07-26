@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "kha7iq/tap"
 tap "moghtech/komodo", trusted: { formulae: ["periphery"] }
+tap "nikitabobko/tap", trusted: { casks: ["aerospace"] }
 tap "slp/krunkit"
 tap "tobi/try", "https://github.com/tobi/try"
 tap "tomhoover/git-wt"
@@ -148,7 +149,7 @@ brew "neovim"
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
 # Create, run, and share large language models (LLMs)
-brew "ollama"
+brew "ollama", restart_service: :changed
 # Bash completion for open
 brew "open-completion"
 # GTK+ library to embed OpenStreetMap maps
@@ -273,6 +274,7 @@ cask "font-symbols-only-nerd-font"
 cask "freecad"
 # Notes manager
 cask "fsnotes"
+cask "fujitsu-scansnap-manager"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Git GUI
