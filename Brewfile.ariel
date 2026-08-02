@@ -168,6 +168,10 @@ brew "ripgrep"
 brew "rmlint"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Autoformat shell script source code
+brew "shfmt"
 # Monitors sleep, wakeup, and idleness of a Mac
 brew "sleepwatcher", restart_service: :changed
 # SMART hard drive monitoring
@@ -258,6 +262,8 @@ cask "dupeguru"
 cask "duplicacy-cli"
 # Web browser
 cask "firefox"
+# Offline voice-to-text dictation app with AI enhancement
+cask "fluidvoice"
 # Screen colour temperature controller
 cask "flux-app"
 cask "font-fira-code"
@@ -337,8 +343,6 @@ cask "resilio-sync"
 cask "scratch"
 # Backup, recovery and cloning software
 cask "superduper"
-# Dictation tool including LLM reformatting
-cask "superwhisper"
 # Real time file synchronisation software
 cask "syncthing-app"
 # Sync and backup service to Synology NAS drives
