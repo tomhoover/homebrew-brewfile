@@ -349,6 +349,8 @@ cask "syncthing-app"
 cask "synology-drive"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
 # Disk encryption software focusing on security based on TrueCrypt
