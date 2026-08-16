@@ -168,6 +168,8 @@ brew "ripgrep"
 brew "rmlint"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Autoformat shell script source code
