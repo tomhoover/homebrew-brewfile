@@ -92,6 +92,8 @@ brew "glib-networking"
 brew "gnu-getopt"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# GNU version of the tar archiving utility
+brew "gnu-tar"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -138,6 +140,8 @@ brew "llvm@17"
 brew "mas"
 # Terminal-based visual file manager
 brew "midnight-commander"
+# Deep clean and optimize your Mac
+brew "mole"
 # Remote terminal application
 brew "mosh"
 # Multiple Repository management tool
@@ -395,6 +399,7 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 446107677
 mas "ScreenTest", id: 6757317079
 mas "Simplenote", id: 692867256
+mas "SingleFile", id: 6444322545
 mas "WireGuard", id: 1451685025
 vscode "mikoz.black-py"
 vscode "ms-python.debugpy"
