@@ -1,13 +1,8 @@
 tap "antoniorodr/memo"
-tap "github/gh"
 tap "kha7iq/tap"
 tap "moghtech/komodo", trusted: { formulae: ["periphery"] }
-tap "slp/krunkit"
 tap "steipete/tap"
 tap "tomhoover/komodo"
-tap "tomhoover/nocodb"
-tap "tomhoover/shellcheck", "https://github.com/tomhoover/homebrew-shellcheck.git"
-tap "vultr/vultr-cli"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -34,22 +29,6 @@ brew "python-setuptools"
 brew "svt-av1"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# GNU Transport Layer Security (TLS) Library
-brew "gnutls"
-# OpenType text shaping engine
-brew "harfbuzz"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@77"
-# JPEG image codec that aids compression and decompression
-brew "jpeg-turbo"
-# High dynamic-range image file format
-brew "openexr"
-# Cryptographic & SSL/TLS library
-brew "mbedtls"
-# Framework for layout and rendering of i18n text
-brew "pango"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
 # Core component of the AcoustID project (Audio fingerprinting)
 brew "chromaprint"
 # Command-line tool for Amazon Route 53
@@ -70,6 +49,8 @@ brew "cpanminus"
 brew "csvtk"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# JPEG image codec that aids compression and decompression
+brew "jpeg-turbo"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Load/unload environment variables based on $PWD
@@ -106,6 +87,8 @@ brew "git-gui"
 brew "gnu-getopt"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
 # Library for USB device access
 brew "libusb"
 # GNU Privacy Guard (OpenPGP)
@@ -118,6 +101,8 @@ brew "gobject-introspection"
 brew "grc"
 # GNU grep, egrep and fgrep
 brew "grep"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Improved top (interactive process viewer)
 brew "htop"
 # Add GitHub support to git on the command-line
@@ -144,6 +129,8 @@ brew "lzop"
 brew "mariadb"
 # Mac App Store command-line interface
 brew "mas"
+# Cryptographic & SSL/TLS library
+brew "mbedtls"
 # Fast and user friendly build system
 brew "meson"
 # Terminal-based visual file manager
@@ -164,10 +151,14 @@ brew "mutt"
 brew "neovim"
 # Create, run, and share large language models (LLMs)
 brew "ollama"
+# High dynamic-range image file format
+brew "openexr"
 # Development kit for the Java programming language
 brew "openjdk"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Extract just secret information out of OpenPGP secret keys
 brew "paperkey"
 # Shell command parallelization utility
@@ -212,6 +203,8 @@ brew "stow"
 brew "subversion"
 # User interface to the TELNET protocol
 brew "telnet"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Text interface for Git repositories
 brew "tig"
 # Terminal multiplexer
@@ -242,14 +235,14 @@ brew "zoxide"
 brew "zsh-completions"
 # CLI app to manage your Apple Notes and Apple reminders
 brew "antoniorodr/memo/memo", trusted: true
+# PingMe is a CLI tool which provides the ability to send messages or alerts to multiple messaging platforms.
+brew "kha7iq/tap/pingme", trusted: true
 # Send and read iMessage / SMS from the terminal
 brew "steipete/tap/imsg", trusted: true
 # Fast CLI for Apple Reminders
 brew "steipete/tap/remindctl", trusted: true
 # Agent to connect with Komodo Core
 brew "tomhoover/komodo/periphery", trusted: true
-# NocoDB : Opensource smart spreadsheet
-brew "tomhoover/nocodb/nocodb"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -321,4 +314,22 @@ cask "visual-studio-code"
 cask "xquartz"
 # Mesh VPN client
 cask "zerotier-one"
+mas "1Password for Safari", id: 1569813296
+mas "AmorphousDiskMark", id: 1168254295
+mas "AudioBookBinder", id: 413969927
+mas "AutoMounter", id: 1160435653
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Discovery", id: 1381004916
+mas "Drafts", id: 1435957248
+mas "iThoughtsX", id: 720669838
+mas "MediaInfo", id: 510620098
+mas "Moom Classic", id: 419330170
+mas "PCalc", id: 403504866
+mas "PDF Expert", id: 1055273043
+mas "Plash", id: 1494023538
+mas "Screens", id: 446107677
+mas "SiteSucker", id: 442168834
+mas "Speedtest", id: 1153157709
+mas "The Unarchiver", id: 425424353
+mas "Unzip - RAR ZIP 7Z Unarchiver", id: 1537056818
 npm "corepack"
