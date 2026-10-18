@@ -1,10 +1,11 @@
 tap "antoniorodr/memo"
+tap "haimgel/tools"
 tap "kha7iq/tap"
 tap "moghtech/komodo", trusted: { formulae: ["periphery"] }
 tap "steipete/tap"
 tap "tomhoover/komodo"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@3", link: true
+brew "openssl@3"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Programmable completion for Bash 4.2+
@@ -235,6 +236,8 @@ brew "zoxide"
 brew "zsh-completions"
 # CLI app to manage your Apple Notes and Apple reminders
 brew "antoniorodr/memo/memo", trusted: true
+# An utility to watch for USB device connect/disconnect events and switch display inputs via DDC/CI.
+brew "haimgel/tools/display_switch", trusted: true
 # PingMe is a CLI tool which provides the ability to send messages or alerts to multiple messaging platforms.
 brew "kha7iq/tap/pingme", trusted: true
 # Send and read iMessage / SMS from the terminal
@@ -286,6 +289,8 @@ cask "macfuse"
 cask "obsidian"
 # Cloud storage client
 cask "onedrive"
+# Local-first alternative to Logitech Options+ for HID++ devices
+cask "openlogi"
 # Tool to run Java Web Start-based applications after the release of Java 11
 cask "openwebstart"
 # ZFS driver and utilities
