@@ -1,4 +1,5 @@
 tap "darrylmorley/whatcable"
+tap "haimgel/tools"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "kha7iq/tap"
@@ -16,7 +17,7 @@ brew "icu4c@78"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@3", link: true
+brew "openssl@3"
 # Command-line interface for SQLite
 brew "sqlite"
 # AI pair programming in your terminal
@@ -135,6 +136,8 @@ brew "libtool"
 brew "llvm"
 # Next-gen compiler infrastructure
 brew "llvm@17"
+# List USB devices, just like the Linux lsusb command
+brew "lsusb"
 # Mac App Store command-line interface
 brew "mas"
 # Terminal-based visual file manager
@@ -229,6 +232,8 @@ brew "zlib"
 brew "zoxide"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# An utility to watch for USB device connect/disconnect events and switch display inputs via DDC/CI.
+brew "haimgel/tools/display_switch", trusted: true
 # PingMe is a CLI tool which provides the ability to send messages or alerts to multiple messaging platforms.
 brew "kha7iq/tap/pingme", trusted: true
 # Fresh directories for every vibe - lightweight experiments for people with ADHD
@@ -334,6 +339,8 @@ cask "mullvad-vpn"
 cask "mylio"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Local-first alternative to Logitech Options+ for HID++ devices
+cask "openlogi"
 # AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
 cask "openusage"
 # ZFS driver and utilities
